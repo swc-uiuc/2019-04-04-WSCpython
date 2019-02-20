@@ -10,11 +10,11 @@ humandate: "Apr 4–5, 2019"  # human-readable dates for the workshop (e.g., "Fe
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-02-04      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-02-05        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Samniqueka Halsey","TBD"] # boxed, comma-separated list of instructors' names as strings
+instructor: ["Samniqueka Halsey","Shaneen Braswell"] # boxed, comma-separated list of instructors' names as strings
 helper: ["TBD"]     # boxed, comma-separated list of helpers' names
 email: ["shals3@illinois.edu"]    # boxed, comma-separated list of contact email addresses for the host
 collaborative_notes: "http://pad.software-carpentry.org/2019-04-04-illinois"            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite: "53441740685"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: "57028443610"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -38,7 +38,7 @@ eventbrite: "53441740685"          # optional: alphanumeric key for Eventbrite r
 {% endcomment %}
 {% if page.eventbrite %}
 <iframe
-  src="https://www.eventbrite.com/e/software-carpentrywomen-in-software-carpentry-april-45-tickets-57028443610"
+  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
   width="100%"
   height="280px"
