@@ -38,7 +38,7 @@ eventbrite: "53441740685"          # optional: alphanumeric key for Eventbrite r
 {% endcomment %}
 {% if page.eventbrite %}
 <iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  src="https://www.eventbrite.com/e/software-carpentrywomen-in-software-carpentry-april-45-tickets-57028443610"
   frameborder="0"
   width="100%"
   height="280px"
